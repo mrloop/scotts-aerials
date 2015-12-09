@@ -1,6 +1,11 @@
 h1 {
   text-transform: uppercase;
+  text-shadow: red 1.5px -1.5px 4px;
+}
+@media (min-width: 550px) {
+ h1 {
   text-shadow: red 2px -2px 5px;
+ }
 }
 
 h1 .great-scott {
