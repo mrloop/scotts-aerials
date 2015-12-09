@@ -1,0 +1,71 @@
+h1 {
+  text-transform: uppercase;
+  animation: rotate 60s cubic-bezier(0,0.3,0.3,0) infinite forwards;
+  -webkit-animation: rotate 60s cubic-bezier(0,0.3,0.3,0) infinite forwards;
+}
+
+h1 .great-scott {
+  font-style: italic;
+}
+
+h1 {
+  margin-bottom: 8px
+}
+
+h1, h2, h3 {
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+@-webkit-keyframes rotate {
+    0% {text-shadow: red 2px -2px 5px;}
+    25% {text-shadow: red 2px 2px 5px;}
+    50% {text-shadow: red -2px 2px 5px;}
+    75% {text-shadow: red -2px -2px 5px;}
+    100% {text-shadow: red 2px -2px 5px;}
+}
+
+@keyframes rotate {
+    0% {text-shadow: red 2px -2px 5px;}
+    25% {text-shadow: red 2px 2px 5px;}
+    50% {text-shadow: red -2px 2px 5px;}
+    75% {text-shadow: red -2px -2px 5px;}
+    100% {text-shadow: red 2px -2px 5px;}
+}
+
+ul {
+  font-weight: bold;
+  list-style: disc;
+  padding-left: 20px
+}
+
+.strapline {
+  font-weight: bold;
+  color: #555555;
+}
+
+.contact dt, .contact dd {
+  font-weight: bold;
+  display: inline-block;
+  margin: 4px;
+}
+
+.copyright {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.main {
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
